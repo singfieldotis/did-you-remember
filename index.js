@@ -5,7 +5,6 @@ import {
   push,
   onValue,
 } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
-// import { appendItemToShoppingListEl, clearInputFieldEl } from "./functions.js";
 
 const appSettings = {
   databaseURL: "https://realtime-database-2789b-default-rtdb.firebaseio.com/",
