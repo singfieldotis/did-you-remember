@@ -1,7 +1,7 @@
-export function clearInput() {
-    inputFieldEl.value = ""
+export function clearInputFieldEl() {
+  inputFieldEl.value = "";
 }
 
-export function addToList(inputValue) {
-    shoppingListEl.innerHTML += `<li>${inputValue}</li>`
+export function appendItemToShoppingListEl(itemValue) {
+  shoppingListEl.innerHTML += `<li>${itemValue}</li>`;
 }
